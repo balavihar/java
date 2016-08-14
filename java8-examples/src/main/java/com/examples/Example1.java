@@ -24,7 +24,7 @@ public class Example1 implements Predicate<Integer> {
 		return false;
 	}
 
-	public static void main1(String[] args) {
+	public static void main(String[] args) {
 		Predicate<Integer> pi = new Example1();
 		pi.test(2);
 	}
@@ -76,7 +76,7 @@ public class Example1 implements Predicate<Integer> {
 		//10,1,2,3,7,8,9
 	}
 	
-	public static void main(String[] args) {
+	public static void main1(String[] args) {
 		System.out.println(String.format("Failed to find %s [%s]", "aaaa", "bbbb"));
 	}
 }
